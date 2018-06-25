@@ -1,0 +1,11 @@
+name: 'SimpleWarps'
+version: ${project.version}
+main: 'xyz.yooniks.simplewarps.SimpleWarps'
+authors: [yooniks]
+description: 'Just simple plugin for warps'
+website: 'www.youtube.com/c/Enchanted3'
+
+commands:
+  warp:
+    aliases: ['simplewarps', 'warps', 'warpy']
+    usage: '/warp [name of warp] - teleport to specific warp'

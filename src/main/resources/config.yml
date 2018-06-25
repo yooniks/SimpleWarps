@@ -1,0 +1,40 @@
+inventory:
+  name: "&6Warps list"
+  size: 9*3
+warps:
+  simpleWarp:
+    messages:
+      teleporting: "&6Teleporting to simple warp in 10 seconds..."
+      success: "&aTeleported successfully to simple warp!"
+      error: "&cYou have moved your body! Cancelled teleporting!"
+    teleport-time: 10 #seconds
+    location:
+      world: world
+      x: 1
+      y: 80
+      z: 1
+      yaw: 1
+      pitch: 0
+    warp-item:
+      material: STONE
+      name: "&6Simple warp"
+      slot: 0
+      amount: 6
+  unhappyWarp:
+    messages:
+      teleporting: "&6I am unhappy, are you too? I will teleport you to me in 20 seconds.."
+      success: "&cSuccessfuly teleported.. I hope you will be happy.."
+      error: "&cYou have moved your body! Cancelled teleporting.."
+    teleport-time: 20
+    location:
+      world: world
+      x: 110
+      y: 70
+      z: 20
+      yaw: 2
+      pitch: 3
+    warp-item:
+      material: WOOL
+      name: "&cSad warp = ("
+      slot: 1
+      data: 4
